@@ -1,0 +1,52 @@
+{
+    "name": "@clarabase/json-schema-editor-react",
+    "version": "1.0.0",
+    "description": "A React component to create and edit JSON Schema, and convert to other formats such as SQL and GraphQL",
+    "main": "dist/bundle.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "rollup -c",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Clarabase",
+    "license": "MIT",
+    "dependencies": {
+        "@radix-ui/react-checkbox": "^1.1.2",
+        "@radix-ui/react-label": "^2.1.0",
+        "@radix-ui/react-select": "^2.1.2",
+        "@radix-ui/react-slot": "^1.1.0",
+        "autoprefixer": "^10.4.20",
+        "class-variance-authority": "^0.7.0",
+        "clsx": "^2.1.1",
+        "lucide-react": "^0.460.0",
+        "postcss": "^8.4.49",
+        "prop-types": "^15.8.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tailwind-merge": "^2.5.4",
+        "tailwindcss": "^3.4.15",
+        "tailwindcss-animate": "^1.0.7"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.26.0",
+        "@babel/preset-env": "^7.26.0",
+        "@babel/preset-react": "^7.25.9",
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^28.0.1",
+        "@rollup/plugin-node-resolve": "^15.3.0",
+        "@rollup/plugin-typescript": "^12.1.1",
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/react": "^16.0.1",
+        "@types/react": "^18.3.12",
+        "@types/react-dom": "^18.3.1",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "rollup": "^2.79.2",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0",
+        "rollup-plugin-postcss": "^4.0.2",
+        "typescript": "^5.6.3"
+    }
+}

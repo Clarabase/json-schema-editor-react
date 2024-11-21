@@ -1,0 +1,7 @@
+node_modules/
+src/
+rollup.config.js
+babel.config.json
+jest.config.js
+components.json
+.npmrc
